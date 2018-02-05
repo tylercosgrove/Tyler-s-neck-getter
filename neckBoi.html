@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	</head>
+
+	<body>
+		<button id="btn" onclick="myFunction()">press me</button>
+		<img id="image1" src='http://4.bp.blogspot.com/_B5E5HPIKKBY/TCgENnaXouI/AAAAAAAAAZs/JHip18_p03M/s320/Screen+shot+2010-06-27+at+10.08.28+PM.png'>
+		<script>
+			function myFunction() {
+  				var image = document.getElementById("image1");
+  				if (image.style.display == "block") {
+    			image.style.display = "none";
+  				} else {
+    			image.style.display = "block";
+  				}
+			}
+		</script>
+	</body>
+</html>
